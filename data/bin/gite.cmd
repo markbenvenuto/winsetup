@@ -1,0 +1,1 @@
+git -C src\mongo\db\modules\enterprise %*
