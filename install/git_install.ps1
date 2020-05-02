@@ -1,9 +1,12 @@
+# Require interactive prompt
+
 # Install mongo repos
 
-git -C z:/ clone git@github.com:10gen/kernel-tools.git
-
 New-Item -Type Directory z:/repo
-git -C z:/ clone https://github.com/will62794/Rietveld-Usability-Toolkit
+
+git -C z:/repo clone git@github.com:10gen/kernel-tools.git
+
+git -C z:/repo clone https://github.com/will62794/Rietveld-Usability-Toolkit
 
 # Clone a full mongodb repo with enteprise and ninja
 git -C z:/ clone git@github.com:mongodb/mongo.git
