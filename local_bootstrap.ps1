@@ -13,3 +13,5 @@ install\bin_install.ps1
 
 install\git_install.ps1
 
+install\evergreen_install.ps1
+

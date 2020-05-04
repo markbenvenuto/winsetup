@@ -2,9 +2,6 @@ My setup scripts for a Windows VM
 
 TODO
 
-Evergreen.exe
-LLVM - clang-format
-Vim (for xxd.exe)
 Git Setup
 
 ##Manual steps##

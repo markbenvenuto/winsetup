@@ -6,6 +6,10 @@ function ScriptDirectory {
 
 choco install --yes vscode.install vivaldi.install slack git.install poshgit ripgrep
 
+choco install --yes curl vim wireshark networkmonitor sysinternals
+
+choco install --yes llvm --version=7.0.1
+
 # Pin programs to task bar
 & "$(ScriptDirectory)\..\lib\pin_to_taskbar.ps1" 'C:\Program Files\Vivaldi\Application\vivaldi.exe'
 
