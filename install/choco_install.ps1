@@ -6,7 +6,7 @@ function ScriptDirectory {
 
 choco install --yes vscode.install vivaldi.install slack git.install poshgit ripgrep
 
-choco install --yes curl vim wireshark networkmonitor sysinternals
+choco install --yes curl vim wireshark networkmonitor sysinternals windbg
 
 choco install --yes llvm --version=7.0.1
 
@@ -17,4 +17,8 @@ choco install --yes llvm --version=7.0.1
 
 & "$(ScriptDirectory)\..\lib\pin_to_taskbar.ps1" 'C:\Program Files\Microsoft VS Code\Code.exe'
 
-& "$(ScriptDirectory)\..\lib\pin_to_taskbar.ps1" 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\devenv.exe'
+if (Test-Path 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\devenv.exe') {
+    & "$(ScriptDirectory)\..\lib\pin_to_taskbar.ps1" 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\devenv.exe'
+}
+
+& "$(ScriptDirectory)\..\lib\pin_to_taskbar.ps1"  'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'

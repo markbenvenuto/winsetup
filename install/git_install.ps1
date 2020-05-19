@@ -19,3 +19,4 @@ git -C z:/mongo/src/mongo/db/modules/enterprise remote add mcb git@github.com:ma
 git -C z:/mongo/src/mongo/db/modules clone https://github.com/RedBeard0531/mongo_module_ninja ninja
 git -C z:/mongo/src/mongo/db/modules/ninja remote add mcb git@github.com:markbenvenuto/mongo_module_ninja.git
 
+C:\Python\Python37\python.exe -m pip install -r buildscripts\requirements.txt

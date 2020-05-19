@@ -6,4 +6,4 @@ function devshell() {
     Enter-VsDevShell -DevCmdArguments "-arch=amd64 -host_arch=amd64" 98353fc6
 } 
 
-$env:PATH="c:\tools\vim\vim82;$env:PATH"
+$env:PATH="c:\tools\vim\vim82;c:\python\python37;$env:PATH"
