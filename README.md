@@ -21,11 +21,20 @@ cd z:\winsetup
 ./local_bootstrap.ps1
 ```
 
-TODO
+## TODO
 
 Git Setup
+VS Code setup - install extensions
 
-##Manual steps##
+## Other Software
+Wireshark - https://chocolatey.org/packages/wireshark
+Network Monitor - https://chocolatey.org/packages/networkmonitor
+SysInternals - https://chocolatey.org/packages/sysinternals
+curl - https://chocolatey.org/packages/curl
+vim - https://chocolatey.org/packages/vim
+https://chocolatey.org/packages/SourceTree
+
+## Manual steps
 
 Vivaldi
 - Extensions
@@ -34,3 +43,7 @@ Vivaldi
 - add bookmarks for work sites
 - Under search/Search Engines
   - add j alias for https://jira.mongodb.org/browse/%s
+
+
+### Git Todo
+https://github.com/dandavison/delta

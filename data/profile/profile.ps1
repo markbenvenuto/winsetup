@@ -7,3 +7,6 @@ function devshell() {
 } 
 
 $env:PATH="c:\tools\vim\vim82;c:\python\python37;$env:PATH"
+
+# Set WIX tools path for building MSI
+$env:WIX="c:\wixtools"
